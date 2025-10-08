@@ -1,0 +1,78 @@
+        
+
+        .logo {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.1em;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .link-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            padding: 30px;
+            text-decoration: none;
+            color: white;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .link-card .icon {
+            font-size: 2.5em;
+        }
+
+        .link-card .text {
+            text-align: left;
+        }
+
+        .link-card h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .link-card p {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .link-card {
+                padding: 20px;
+            }
+
+            .link-card h2 {
+                font-size: 1.2em;
+            }
+        }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Veículo - Sistema Norteador</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/padrao.css" />
+    <link rel="stylesheet" href="../css/cadastro-veiculo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="icon">🚙</div>
+        <h1>Cadastro de Veículo</h1>
+        <p>Registre os dados do seu veículo</p>
+      </div>
+
+      <div class="info-box">
+        <p>
+          Informe os dados do veículo que utilizará nossos serviços de lavação.
+        </p>
+      </div>
+
+      <form action="#" method="post" id="formVeiculo">
+        <div class="form-group">
+          <label for="marca">Marca do Veículo</label>
+          <input
+            type="text"
+            id="marca"
+            name="marca"
+            placeholder="Ex: Fiat, Volkswagen, Chevrolet"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="modelo">Modelo do Veículo</label>
+          <input
+            type="text"
+            id="modelo"
+            name="modelo"
+            placeholder="Ex: Uno, Gol, Onix"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="placa">Número da Placa</label>
+          <input
+            type="text"
+            id="placa"
+            name="placa"
+            placeholder="ABC-1234 ou ABC1D23"
+            required
+            maxlength="8"
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">Cadastrar Veículo</button>
+      </form>
+
+      <a href="/home.html" class="back-link">← Voltar para a página inicial</a>
+    </div>
+  </body>
+</html>

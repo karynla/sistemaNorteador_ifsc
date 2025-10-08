@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro de Cliente - Sistema Norteador</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/padrao.css" />
+    <link rel="stylesheet" href="../css/cadastro-cliente.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="icon">👤</div>
+        <h1>Cadastro de Cliente</h1>
+        <p>Preencha seus dados para utilizar nossos serviços</p>
+      </div>
+
+      <form action="#" method="post" id="formCliente">
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome completo"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="endereco">Endereço</label>
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            placeholder="Rua, número, bairro, cidade"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="seu@email.com"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="usuario">Nome de Usuário</label>
+          <input
+            type="text"
+            id="usuario"
+            name="usuario"
+            placeholder="Escolha um nome de usuário"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Crie uma senha segura"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="celular">Número de Celular</label>
+          <input
+            type="tel"
+            id="celular"
+            name="celular"
+            placeholder="(00) 00000-0000"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">Cadastrar</button>
+      </form>
+
+      <a href="/home.html" class="back-link">← Voltar para a página inicial</a>
+    </div>
+  </body>
+</html>
