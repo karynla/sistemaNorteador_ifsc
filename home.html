@@ -1,36 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sistema Norteador - Lavação de Carros</title>
+    <title>Sistema Norteador</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/padrao.css" />
     <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/formulario.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="logo">🚗</div>
-      <h1>Sistema Norteador</h1>
-      <p class="subtitle">Serviços de Lavação de Carros</p>
-
-      <div class="links-container">
-        <a href="./pages/cadastro-cliente.html" class="link-card">
-          <div class="icon">👤</div>
-          <div class="text">
-            <h2>Cadastro de Cliente</h2>
-            <p>Registre seus dados pessoais</p>
-          </div>
-        </a>
-
-        <a href="./pages/cadastro-veiculo.html" class="link-card">
-          <div class="icon">🚙</div>
-          <div class="text">
-            <h2>Cadastro de Veículo</h2>
-            <p>Registre os dados do seu veículo</p>
-          </div>
-        </a>
+    <div class="wrapper">
+      <div class="brand">
+        <h1>Sistema Norteador</h1>
+        <p>Serviços de lavação de veículos</p>
       </div>
+
+      <nav class="nav">
+        <a href="./pages/cadastro-cliente.html" class="nav-item">
+          <div class="nav-item-left">
+            <div class="nav-item-text">
+              <h2>Cadastro de Cliente</h2>
+              <p>Registre seus dados pessoais</p>
+            </div>
+          </div>
+          <span class="arrow">›</span>
+        </a>
+
+        <a href="./pages/cadastro-veiculo.html" class="nav-item">
+          <div class="nav-item-left">
+            <div class="nav-item-text">
+              <h2>Cadastro de Veículo</h2>
+              <p>Registre os dados do seu veículo</p>
+            </div>
+          </div>
+          <span class="arrow">›</span>
+        </a>
+      </nav>
     </div>
   </body>
 </html>

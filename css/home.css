@@ -1,78 +1,64 @@
-        
+.wrapper {
+    max-width: 420px;
+}
 
-        .logo {
-            font-size: 3em;
-            margin-bottom: 10px;
-        }
+.brand {
+    margin-bottom: 40px;
+}
 
-        h1 {
-            color: #333;
-            margin-bottom: 15px;
-            font-size: 2em;
-        }
+.brand h1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
 
-        .subtitle {
-            color: #666;
-            margin-bottom: 50px;
-            font-size: 1.1em;
-        }
+.brand p {
+    font-size: 0.875rem;
+    color: #737373;
+    margin-top: 4px;
+}
 
-        .links-container {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-        .link-card {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 15px;
-            padding: 30px;
-            text-decoration: none;
-            color: white;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 15px;
-        }
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
 
-        .link-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
-        }
+.nav-item:hover {
+    border-color: #a3a3a3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
 
-        .link-card .icon {
-            font-size: 2.5em;
-        }
+.nav-item-left {
+    display: flex;
+    align-items: center;
+}
 
-        .link-card .text {
-            text-align: left;
-        }
+.nav-item-text h2 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
 
-        .link-card h2 {
-            font-size: 1.5em;
-            margin-bottom: 5px;
-        }
+.nav-item-text p {
+    font-size: 0.78rem;
+    color: #737373;
+    margin-top: 2px;
+}
 
-        .link-card p {
-            font-size: 0.9em;
-            opacity: 0.9;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 40px 20px;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-
-            .link-card {
-                padding: 20px;
-            }
-
-            .link-card h2 {
-                font-size: 1.2em;
-            }
-        }
+.arrow {
+    color: #a3a3a3;
+    font-size: 1.2rem;
+}

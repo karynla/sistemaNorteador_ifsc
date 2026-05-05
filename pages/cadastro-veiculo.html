@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
@@ -6,25 +6,20 @@
     <title>Cadastro de Veículo - Sistema Norteador</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/padrao.css" />
-    <link rel="stylesheet" href="../css/cadastro-veiculo.css" />
+    <link rel="stylesheet" href="../css/formulario.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="icon">🚙</div>
-        <h1>Cadastro de Veículo</h1>
-        <p>Registre os dados do seu veículo</p>
-      </div>
+    <div class="wrapper">
+      <a href="../home.html" class="back">← Voltar</a>
 
-      <div class="info-box">
-        <p>
-          Informe os dados do veículo que utilizará nossos serviços de lavação.
-        </p>
-      </div>
+      <h1 class="page-title">Cadastro de Veículo</h1>
+      <p class="page-sub">
+        Informe os dados do veículo que utilizará nossos serviços
+      </p>
 
-      <form action="#" method="post" id="formVeiculo">
+      <form action="../php/salvar-veiculo.php" method="post" id="formVeiculo">
         <div class="form-group">
-          <label for="marca">Marca do Veículo</label>
+          <label for="marca">Marca</label>
           <input
             type="text"
             id="marca"
@@ -35,7 +30,7 @@
         </div>
 
         <div class="form-group">
-          <label for="modelo">Modelo do Veículo</label>
+          <label for="modelo">Modelo</label>
           <input
             type="text"
             id="modelo"
@@ -46,7 +41,7 @@
         </div>
 
         <div class="form-group">
-          <label for="placa">Número da Placa</label>
+          <label for="placa">Placa</label>
           <input
             type="text"
             id="placa"
@@ -57,7 +52,7 @@
           />
         </div>
 
-        <button type="submit" class="btn-submit">Cadastrar Veículo</button>
+        <button type="submit" class="btn">Cadastrar Veículo</button>
       </form>
     </div>
   </body>
