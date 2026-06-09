@@ -81,3 +81,14 @@ input::placeholder { color: #a3a3a3; }
     .wrapper { padding: 28px 20px; }
     .page-title { font-size: 1.05rem; }
 }
+
+.saudacao-usuario {
+    margin-top: 6px;
+    font-size: 0.75rem;
+    color: #737373;
+}
+
+
+#mensagem {
+    margin-top: 12px;
+}

@@ -17,7 +17,7 @@
         Informe os dados do veículo que utilizará nossos serviços
       </p>
 
-      <form action="../php/salvar-veiculo.php" method="post" id="formVeiculo">
+      <form id="formVeiculo">
         <div class="form-group">
           <label for="marca">Marca</label>
           <input
@@ -46,14 +46,17 @@
             type="text"
             id="placa"
             name="placa"
-            placeholder="ABC-1234 ou ABC1D23"
+            placeholder="Ex: ABC1D23"
             required
-            maxlength="8"
+            maxlength="7"
           />
         </div>
 
         <button type="submit" class="btn">Cadastrar Veículo</button>
       </form>
+
+      <p id="mensagem"></p>
     </div>
+    <script src="../js/cadastro-veiculo.js"></script>
   </body>
 </html>
